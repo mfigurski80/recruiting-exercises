@@ -1,0 +1,27 @@
+{
+  "name": "recruiting-exercises",
+  "version": "1.0.0",
+  "description": "Recruiting excersize for Deliverr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfigurski80/recruiting-exercises.git"
+  },
+  "author": "Mikolaj FIgurski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfigurski80/recruiting-exercises/issues"
+  },
+  "homepage": "https://github.com/mfigurski80/recruiting-exercises#readme",
+  "devDependencies": {
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
