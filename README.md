@@ -6,11 +6,15 @@ Running `npm i` will install all required dependencies into the `node_modules` f
 
 ## Testing
 
-`npm test`
+`npm test` or `npm t`
+
+## Building
+
+`npm run-script build` to compile and pack typescript into js bundle
 
 ## Solution Description
 
-Ahh, probably just iterating over an array
+Greedy algorithm to iterate over warehouses and append stock to solution if it exists
 
 ## Original README
 
