@@ -14,7 +14,9 @@ Running `npm i` will install all required dependencies into the `node_modules` f
 
 ## Solution Description
 
-Greedy algorithm to iterate over warehouses and append stock to solution if it exists
+Greedy algorithm to iterate over warehouses and append stock to solution if it exists.
+
+Had a couple questions about the actual weights of the warehouse inventories. If each cost was 'per shipment', there would be cases where it's more optimal to ship from a single more distant warehouse than multiple close ones. The question seemed to imply that any costs where on a *per item* basis, so I assumed that the greedy approach is correct
 
 ## Original README
 

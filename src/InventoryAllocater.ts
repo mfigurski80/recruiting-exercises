@@ -14,8 +14,7 @@ class InventoryAllocater {
      * @returns an allocation of items across warehouses
      */
     static allocate(order: Inventory, inventoryDistribution: Array<Warehouse>): AllocateReturn {
-        order = { ...order } // clone
-        let fill: any = {}
+        let fill: { [key: string]: Inventory } = {}
 
         forEach(order, (count, item) => { // for each ordered item...
 
